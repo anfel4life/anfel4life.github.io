@@ -245,25 +245,25 @@ ul#nav li.current a { color: #fff; }
 /* d. Features Section
 /* ------------------------------------------------------------------ */
 
-#features {
+#whowe {
    background: #fff;
    padding-top: 96px;
    padding-bottom: 78px;
    overflow: hidden;
 }
-#features .feature {
+#whowe .feature {
    margin-top: 30px;
    margin-bottom: 54px;
 }
-#features .right {
+#whowe .right {
    padding-left: 32px;
    float: right;   
 }
-#features .left {
+#whowe .left {
    padding-right: 32px;
    float: left;   
 }
-#features h3 {
+#whowe h3 {
    font: 16px/24px 'montserrat-bold', sans-serif;
    text-transform: uppercase;
    letter-spacing: 1px;
@@ -320,16 +320,16 @@ ul#nav li.current a { color: #fff; }
 	margin-top: 0;
 }
 
-ul.features {
+ul.whowe {
    margin: 12px 0 0 0;
    list-style: none;
 }
-ul.features li {
+ul.whowe li {
    line-height: 39px;
    margin-bottom: 0;
 }
-ul.features li:nth-child(odd) { }
-ul.features li:nth-child(even) { }
+ul.whowe li:nth-child(odd) { }
+ul.whowe li:nth-child(even) { }
 
 .plan-sign-up {
   	padding: 24px 15px;
