@@ -411,7 +411,7 @@ ul.whowe li:nth-child(even) { }
 /* c. Screenshots
 /* ------------------------------------------------------------------ */
 
-#screenshots {
+#stories {
    background: #fff url(img/grey.png);
    padding-top: 96px;
    padding-bottom: 120px;
@@ -422,13 +422,25 @@ ul.whowe li:nth-child(even) { }
 (-webkit-min-device-pixel-ratio: 2),
 (min-resolution: 192dpi) {
 
-   #screenshots {
+   #stories {
       background: #fff url(img/grey_@2X.png);
       background-size: 397px 322px;
    }
 
 }
-
+#stories ul {
+   list-style: inherit;
+   padding: 0 0 0 18px;
+}
+#stories li {
+   text-align: left;
+}
+#stories p {
+   text-align: left;
+}
+#stories h2 {
+   font-size: 15px;
+}
 /* Portfolio Content */
 #screenshots-wrapper .columns { padding: 0; }
 .item .item-wrap {
