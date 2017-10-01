@@ -1,315 +1,691 @@
 <!DOCTYPE html>
-<!--[if lt IE 8 ]><html class="no-js ie ie7" lang="en"> <![endif]-->
-<!--[if IE 8 ]><html class="no-js ie ie8" lang="en"> <![endif]-->
-<!--[if IE 9 ]><html class="no-js ie ie9" lang="en"> <![endif]-->
-<!--[if (gte IE 8)|!(IE)]><!--><html class="no-js" lang="en"> <!--<![endif]-->
+<html>
 <head>
-
-   <!--- Basic Page Needs
-   ================================================== -->
-   <meta charset="utf-8">
-	<title>Brood Product</title>
-	<meta name="description" content="">  
-	<meta name="author" content="">
-
-   <!-- Mobile Specific Metas
-   ================================================== -->
-	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-
-	<!-- CSS
-    ================================================== -->
-   <link rel="stylesheet" href="css/default.css">
-	<link rel="stylesheet" href="css/layout.css">
-   <link rel="stylesheet" href="css/media-queries.css">
-   <link rel="stylesheet" href="css/animate.css">
-   <link rel="stylesheet" href="css/prettyPhoto.css">
-
-   <!-- Script
-   ================================================== -->
-	<script src="js/modernizr.js"></script>
-
-   <!-- Favicons
-	================================================== -->
-	<link rel="shortcut icon" href="favicon.png" >
-
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cordbex: Elegant Solutions to Big Challenges</title>
+    <meta name="description" content="Cordbex Software: Elegant Solutions to Big Challenges">
+    <meta name="keywords" content="big data, machine learning, hadoop, spark, iot, software, development">
+    <link rel="shortcut icon" href="images/favicon.png">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="fonts/font-awesome-4.3.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/all.css">
+    <link href='http://fonts.googleapis.com/css?family=Montserrat:200,300,400,500,700|Source+Sans+Pro:200,300,400,700,400italic,700italic'
+          rel='stylesheet' type='text/css'>
 </head>
-
 <body>
-
-   <div id="preloader">      
-      <div id="status">
-         <img src="images/preloader.gif" height="64" width="64" alt=""> 
-      </div>
-   </div>
-
-   <!-- Header
-   ================================================== -->
-   <header>
-
-      <div class="logo">
-        <!--a class="smoothscroll" href="#hero"><img alt="" src="images/logo_only.png"></a--> 
-      </div>
-
-      <nav id="nav-wrap">         
-         
-         <a class="mobile-btn" href="#nav-wrap" title="Show navigation">Show Menu</a>
-	      <a class="mobile-btn" href="#" title="Hide navigation">Hide Menu</a>         
-
-         <ul id="nav" class="nav">
-            <li><a class="smoothscroll" href="#whowe">Who we are</a></li>
-	        <li><a class="smoothscroll" href="#wecan">What we can help you with</a></li>
-	        <li><a class="smoothscroll" href="#tools">Tools that we use</a></li>	      
-            <li><a class="smoothscroll" href="#stories">Success Stories</a></li>        
-         </ul> <!-- end #nav -->
-
-      </nav> <!-- end #nav-wrap -->
-
-      <ul class="header-social">
-         <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-         <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-         <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-      </ul>
-
-   </header> <!-- Header End -->
-
-
-   <!-- Homepage Hero
-   ================================================== -->
-   <section id="hero">
-
-	   <div class="row">
-
-		   <div class="twelve columns">
-
-			   <div class="hero-text">
-			       <img alt="" src="images/logo.png">
-				   <h1 class="responsive-headline">Solid solutions for your business</h1>
-				   <p>Rapid software development for Mobile, Web, PC, Tablet on platforms including Linux, Windows, Android and more.</p>
-			   </div>
-
-		   </div>
-
-	   </div>
-
-   </section> <!-- Homepage Hero end -->
-
-
-   <!-- Features Section
-   ================================================== -->
-   <section id='whowe'>
-
-      <div class="row feature design">
-
-         <div class="six columns right">
-            <h3>Dedicated, strong, and experienced team</h3>
-
-            <p>Only expirienced management, strong software developers in our dedicated team. And that's all will help you find unique software solutions for your business. A Dedicated Team works as a natural extension of your own IT department following your processes and best practices. We are interested that our solutions will be helpfull for you, because your satisfaction equal our. 
-            </p>
-         </div>
-
-         <div class="six columns feature-media left">
-             <!--img src="images/feature-image-1.png" alt="" /-->
-             <img src="images/team.jpg" alt="" />
-         </div>
-
-      </div>
-
-      <div class="row feature responsive">
-
-         <div class="six columns left">
-            <h3>Our Mission is promote your business</h3>
-
-            <p>As B2B company, we are focused on success of your business. Your questions - our answers, we have core values that make our solutions outstanding:</p>            
-            <ul>
-            	<li>Responsibility</li>
-            	<li>Focus on Success</li>
-            	<li>Give and Take</li>
-            </ul>	
-
-         </div>
-
-         <div class="six columns feature-media right">
-             <img src="images/target.jpg" alt="" />
-         </div>
-
-      </div>
-
-   </section> 
-
-
-    <!-- Pricing Section
-   ================================================== -->
-   <section id="wecan">
-
-      <div class="row section-head">
-
-         <h1>What we can do</h1>
-         <div>
-         	<p>BroodProduct has the potential to offer a wide range of solutions, starting from small one-time projects to large, complex offshore operations with full-time employees. Our software development services target specific customer demands for any kind of application development or integration. We have practices that are built on top of the strong foundation of use-proven project management methodologies and huge technical expertise. Brood Product software development common services:</p>
-         </div>
-
-         <p>
-         	<ul>
-	         	<li>Build complex systems using J2SE / J2EE and various technologies</li>
-	         	<li>Build applications for android</li>		
-				<li>Port old solutions to an enterprise platform using different technologies</li>
-				<li>Optimize performance of enterprise-level systems</li>			
-				<li>Estimate and create architecture for you application</li>
-				<li>Refactoring of code</li>
-				<li>Re-engineering</li>
-				<li>Technical Writing</li>
-				<li>Technical Support</li>
-				<li>Software testing and quality assurance</li>
-				<li>Liferay portal development and consulting services</li>
-				<li>Liferay portal customization</li>
-				<li>Liferay portlet development</li>
-			</ul>			
-         </p>
-         <p>Our software services are carefully considered to satisfy each client specific business requirements and comply with International Intellectual Property Rights. Our developers are always ready to start working immediately on your project doing all the best and applying their knowledge, experience and skills.</p>
-
-		<p>We offer quick and reliable support for our clients 24 hours a day, 7 days a week. If you are our client, you don't need to worry about your application or web site performance. If any problem appears, our team will immediately come to help you and solve the problem in the shortest terms.</p>
-
-      </div>      
-
-   </section> <!-- Pricing End -->
-
-   <!-- Tools Section
-   ================================================== -->
-   <section id="tools">
-
-      <div class="row section-head">
-
-         <h1>Tools</h1>
-         <p>BroodProduct developers provide solutions that use tools include but not limited to:</p>         
-         <p>         
-            <ul>	         	
-	         	<li>IOC: Spring DI</li>	
-	         	<li>ORM: Hibernate, JPA</li>
-	         	<li>MVC: Spring MVC, Struts</li>					
-				<li>Portals: Liferay</li>			      	
-				<li>SQL Databases: Oracle, MySql, Postgres</li>	
-				<li>NOSQL Databases: Cassandra, MongoDB, Redis</li>									
-				<li>Search Engines: Apache Lucene, Elastic Search</li>	
-				<li>Bigdata: Hadoop (HDFS, MapReduce)</li>	
-				<li>JavaScript: jQuery, YUI, AngularJS, ExtJs</li>
-			</ul>			
-         </p>
-
-
-      </div>
-
-    </section> <!-- Tools End --> 
-
-   <!-- Screenshots
-   ================================================== -->
-   <section id="stories">
-
-      <div class="row section-head">
-
-         <h1>Case Studies</h1>         
-		 <p>All projects of Broodproduct have become a good example of implementing the strong software skills in a testing environment. Our software experts has varius technology expirience besides of their main programming language, that is why we can help you to choose concrete technology for your conrete problem and help to resolve it. </p>
-
-		<h2>BroodProduct numerous benefits: </h2> 
-		<ul> 
-			<li>BroodProduct always tries to understand problem of customer. We are not interested in 'blind' programming because our mission is build solution that will help your business.</li>	                                        
-			<li>Improved time management. We perfectly understand that time is money and we have no downtime that will cost to you. Clear estimation, fast implementation and solid solution. We are care about your business, because your business is part of our one.</li>						
-			<li>Competent management, expirienced software developers, qualified QA that is why we makes only quality products. </li>
-		</ul>
-		<h2>Success stories: </h2> 
-		<ul> 
-			<li>BroodProduct builded solution that is provides wide seo functions for web-sites monitoring, analysis and optimisation for SEO customer. As result company started to use our software, that has more extended functionality, better usability and stable work than analog software that they used.</li>	
-			<li>BroodProduct builded unified platform for bills payment. Platform allows make payment for gas, phone, internet and other bills. After integration of platform customer increased count of clients that pay bills through internet in their country.</li>
-			<li>BroodProduct builded healthcare portal for private hospital. Create a portal that implements quick access to doctor / patient page relation, provides information, medical history, etc. After integration of portal hospital made a new level of health care system management in their city.</li>
-		</ul>
-
-      </div>      
-
-      </div>  
-
-   </section>
-
-
- 
-
-   <!-- Footer
-   ================================================== -->
-   <footer>
-
-      <div class="row">         
-
-         <div class="six columns info">
-
-            <div class="footer-logo">
-               <a href="#">
-                  <!-- <img src="images/footer-logo.png" alt="" />-->
-               </a>
+<div id="wrapper" class="home">
+    <header id="header">
+        <div class="container">
+            <div class="logo"><a href="index.html"><img src="images/logo.png" alt="CORDBEX"></a></div>
+            <nav id="nav">
+                <div class="opener-holder">
+                    <a href="#" class="nav-opener"><span></span></a>
+                </div>
+                <a id="contactUs" href="#footer" class="btn btn-primary">Contact Us</a>
+                <div class="nav-drop">
+                    <ul>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="cases.html">Case Studies</a></li>
+                        <li><a href="#">Company</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <section class="visual">
+        <div class="container">
+            <div class="text-block">
+                <h1>Elegant Solutions to Big Challenges</h1>
+                <h3>Software that brings value into your business</h3>
             </div>
+        </div>
+    </section>
+    <section class="area">
+        <div class="container">
+            <div class="top-services">
+                <div class="row">
+                    <div class="col-md-12 top-services-header">
+                        <h2 class="line">Services</h2>
+                        <p>Cordbex has solid knowledge and experience to help you to extract insights from your Big
+                            Data.
+                            With help of Apache Spark and Apache Storm we achieved most powerful and blazing fast in
+                            time
+                            Big Data processing.
+                        </p>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <div class="circle-mid">
+                            <div class="circle-top-item">
+                                <img src="images/landing/hadoop-top-blue.svg">
+                            </div>
+                        </div>
+                        <div class="top-text">
+                            <div class="line-small">
+                                <h3>Big Data Integration</h3>
+                            </div>
+                            <p>
+                                Cordbex uses most innovative technology, knowledge and experience to provide big data
+                                solutions that can help turn your enterprise into data-driven business with the best
+                                strategy and real-time decisions.
+                            </p>
+                        </div>
+                    </div>
 
-            <p>Broodproduct team. Making your business better.
-            </p>
+                    <div class="col-md-3 col-sm-6">
+                        <div class="circle-mid">
+                            <div class="circle-top-item">
+                                <img src="images/landing/graph-top-blue.svg">
+                            </div>
+                        </div>
+                        <div class="top-text">
+                            <div class="line-small">
+                                <h3>Data Visualisation</h3>
+                            </div>
+                            <p>
+                                Understanding of what big data tries to tell can be some kind of challenge. We provide
+                                data visualization as a part of our solutions to help people
+                                without technical background understand what the Big Data says.
+                            </p>
+                        </div>
+                    </div>
 
-         </div>
+                    <div class="col-md-3 col-sm-6">
+                        <div class="circle-mid">
+                            <div class="circle-top-item">
+                                <img src="images/landing/migration-top-blue.svg">
+                            </div>
+                        </div>
+                        <div class="top-text">
+                            <div class="line-small">
+                                <h3>Data Migration</h3>
+                            </div>
+                            <p>
+                                With help of innovative solutions and frameworks we offer our customers migrate their
+                                data
+                                to use modern environment like noSQL databases and Amazon cloud storage in conjunction
+                                with Big Data ecosystem.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <div class="circle-mid">
+                            <div class="circle-top-item">
+                                <img src="images/landing/iot-top-blue.svg">
+                            </div>
+                        </div>
+                        <div class="top-text">
+                            <div class="line-small">
+                                <h3>Big Data for IoT</h3>
+                            </div>
+                            <p>
+                                We provide various solutions for enterprise to collect and analyze data from the
+                                Internet of Things and build in real-time on high speed analytics from data sets to
+                                generate insights.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-         <div class="six columns right-cols">
-
+    <section class="main">
+        <div class="container">
             <div class="row">
+                <div class="text-box col-md-12">
+                    <div class="col-md-offset-1 col-md-10">
+                        <h2 class="line">About Us</h2>
 
-               <!--div class="columns">
-                  <h3 class="address">Come Visit</h3>
-                  <p>
-                  1600 Amphitheatre Parkway<br>
-                  Mountain View, CA<br>
-                  94043 US
-                  </p>
-               </div-->
+                        <p>Cordbex is software development company that is aimed on innovative Big Data solutions to
+                            bring
+                            all benefits of using Big Data with strong quality through software solutions for your
+                            business.
+                        </p>
 
-               <div class="columns">
-                  <h3 class="social">socialize</h3>
-                  <ul>
-                     <li><a href="#">Facebook</a></li>
-                     <li><a href="#">Twitter</a></li>
-                     <li><a href="#">GooglePlus</a></li>
-                  </ul>
-               </div>
+                        <p>
+                            We found a
+                            practical approach to solve industry challenges by using both technology and industry
+                            spheres.
+                            Our investigation of modern technology innovations and collaboration
+                            with international specialists helps us to stay a step ahead. Our focus on industry
+                            allows us to comprehend industry specific requirements.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-               <div class="columns last">
-                  <h3 class="contact">Contact Us</h3>
-                  <ul>
-                    <!--li><a href="tel:6473438234">647.343.8234</a></li-->
-                    <li><a href="skype:broodproduct?call">skype: broodproduct</a></li>
-                    <li><a href="mailto:broodproduce@gmail.com">broodproduct@gmail.com</a></li>
-                  </ul>
-               </div>
+    <section class="area benefits">
+        <div class="container">
+            <div class="row">
+                <div class="text-box col-md-12">
+                    <div class="col-md-10 col-md-offset-1">
+                        <h2 class="line">Benefits For Your Business</h2>
+                        <p> We believe Big Data adoption is not a luxury but reasonable strategic move for
+                            organizations who knows that data
+                            is a key to gain competitive advantage. We know that building the business core on
+                            ability
+                            to collect and
+                            analyze information and making data-driven culture leads company to success and gives
+                            crucial benefits.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="text-box col-md-12 text-block-item">
+                    <div class="col-sm-4">
+                        <h3>Data-Driven Strategy</h3>
+                    </div>
+                    <div class="col-sm-8">
+                        <p>Analytics and visualization of big data can bring company at new level of
+                            data-driven,
+                            where facts (data) rather than opinions are used to pick crucial choice. A
+                            data-driven
+                            company is an organization where data is a part of the core business strategy and
+                            every
+                            person operates data to make better decisions and reduce uncertainty.
+                        </p>
+                        <p>Being data-driven
+                            means making deal with massive quantities of unstructured data like text, video,
+                            voice.
+                            Before now this operation needed the whole IT department which had tough time
+                            extracting
+                            information from these data resources, but nowadays with help of new technology it
+                            requires lesser human resources and can be reached by data mining process.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="text-box col-md-12 text-block-item">
+                    <div class="col-sm-4">
+                        <h3>Organisation Processes Optimisation</h3>
+                    </div>
+                    <div class="col-sm-8">
+                        <p>Data can help to understand weakness and pitfalls of your company’s organisation and
+                            development process. It can bring your company at new stage of organisation
+                            management and help to create organisation transparency by making data more easily
+                            accessible to relevant employees in a timely manner.</p>
+                        <ul class="custom-bullet">
+                            <li>Optimization of inventory and logistic operations with predicted patterns based
+                                on external factors such as local demographic, weather, holidays, and economic
+                                conditions.
+                            </li>
+                            <li>Replacing or supporting human decision making with automated algorithms and
+                                data.
+                            </li>
+                            <li>Increasing speed of product development processes</li>
+                            <li>Fast identifying product’s quality problems</li>
+                            <li>Determination of organizational redundancy, waste and abuse of resources</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="text-box col-md-12 text-block-item">
+                    <div class="col-sm-4">
+                        <h3>Boost of Customer Intelligence</h3>
+                    </div>
+                    <div class="col-sm-8">
+                        <p>Machine learning is delicate way of analytics that helps derive insights from data to
+                            figure out customer preferences, behaviour and habits that could be used to develop
+                            better customer loyalty. Awareness of who is your customer gives you an opportunity
+                            for better satisfaction of their needs, that leads to more happiness of your
+                            clients.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="text-box col-md-12 text-block-item">
+                    <div class="col-sm-4">
+                        <h3>Better Customer Experience</h3>
+                    </div>
+                    <div class="col-sm-8">
+                        <p>Innovative manufacturing companies pack their products with sensors that are used by
+                            the company to understand how their product is being used, diagnose breakages,
+                            develop innovations and new features. Moreover data helps their clients to
+                            experience the product at new quality level. These companies are not only using data
+                            to make analytics and predictions, but they also sell it as a part of the product.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="text-box col-md-12 text-block-item">
+                    <div class="col-sm-4">
+                        <h3>Employee’s Efficiency Improvement</h3>
+                    </div>
+                    <div class="col-sm-8">
+                        <p>According to our investigation, working with Big Data can be challenging for personal
+                            without technical background. We believe that benefit of Big Data can be available
+                            for everyone, and here in Cordbex we provide for our clients best data visualisation
+                            and analytics experience as a part of our solutions. Understandable even for
+                            non-technical people charts, graphs, tables can give valuable information for
+                            company's personal that is necessary to make crucial decisions.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="text-box col-md-12 text-block-item">
+                    <div class="col-sm-4">
+                        <h3>Fast Calculation of Risk Portfolio</h3>
+                    </div>
+                    <div class="col-sm-8">
+                        <p>Using huge amount of data opens new opportunities for risk managements. Big Data can
+                            be used to simulate scenarios that help to determine risk concentration, or derive
+                            patterns that recognize potential fraud more precisely. With help of new
+                            technologies operation of risk portfolio recalculation takes minutes, so you
+                            have data to make key decision in a short time.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-            </div> <!-- Nested Row End -->
+    <section class="main separator">
+        <div class="container">
+            <div class="text-box col-md-12">
+                <h2 class="line">Why we?</h2>
+                <div class="col-md-offset-1 col-md-10">
+                    <p>For many years of working with various clients we've highlighted four particular values of our
+                        development process which we comply to provide the best experience and software products for
+                        your business.</p>
+                </div>
+            </div>
+        </div>
+    </section>
 
-         </div>
+    <!--VALUES-->
+    <section class="main">
+        <div class="container">
+            <div class="row">
+                <div class="text-box col-md-12">
+                    <div class="col-md-offset-1 col-md-10 we-work">
+                        <div>
+                            <h2 class="line">Quality Focused</h2>
+                            <p>
+                                Various types of testing adoption in order to strengthen quality of our
+                                deliverable software gives us confidence our products have outstanding durability and
+                                quality.
+                            </p>
+                            <div class="row work-list">
+                                <div class="col-sm-6">
+                                    <div class="col-sm-3">
+                                        <div class="img-holder">
+                                            <img class="pull-left" src="images/landing/usability-testing-icon.svg"
+                                                 alt="Usability">
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-9">
+                                        <div class="text-holder">
 
-         <p class="copyright">Design by <a title="Styleshout" href="http://www.styleshout.com/">Styleshout</a></p>
+                                            <h3>Usability</h3>
 
-         <div id="go-top">
-            <a class="smoothscroll" title="Back to Top" href="#hero"><i class="icon-up-open"></i></a>
-         </div>
+                                            <p>Cordbex always performs usability testing methods to be sure our web
+                                                interfaces are convenient to explore and easy to use.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6">
+                                    <div class="col-sm-3">
+                                        <div class="img-holder">
+                                            <img class="pull-left" src="images/landing/performance-testing-icon.svg"
+                                                 alt="Performance">
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-9">
+                                        <div class="text-holder">
+                                            <h3>Performance</h3>
+                                            <p>Our developers determine how our software performs in terms of
+                                                responsiveness
+                                                and
+                                                stability under a high load to provide fast working applications.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row work-list">
+                                <div class="col-sm-6">
+                                    <div class="col-sm-3">
+                                        <div class="img-holder">
+                                            <img class="pull-left" src="images/landing/functional-testing-icon.svg"
+                                                 alt="Functional Testing">
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-9">
+                                        <div class="text-holder">
+                                            <h3>Functional Testing</h3>
+                                            <p>We carefully inspect our software products to ensure it meets
+                                                customer expectations and standards.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6">
+                                    <div class="col-sm-3">
+                                        <div class="img-holder">
+                                            <img class="pull-left" src="images/landing/auto-testing-icon.svg"
+                                                 alt="Automation Testing">
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-9">
+                                        <div class="text-holder">
+                                            <h3>Automation Testing</h3>
+                                            <p>Automation testing allows us to have strong guarantee that no one issue
+                                                will be delivered.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
 
-      </div> <!-- Row End -->
+                        <div>
+                            <div class="line col-md-12 work-section">
+                                <h2>Relying On Processes</h2>
+                            </div>
+                            <p>
+                                Cordbex has built strong and stable product development process in order to deliver your
+                                product within the time lines and meet your budgetary.
+                            </p>
 
-   </footer> <!-- Footer End-->
+                            <div class="row work-list-line">
+                                <div class="col-sm-4">
+                                    <div class="col-md-12 circle-mid">
+                                        <div class="img-holder">
+                                            <img class="pull-left" src="images/landing/agile-top-icon-3.svg"
+                                                 alt="Agile Methodology">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <div class="text-holder">
+                                            <h3 class="line-small">Agile Methodology</h3>
+                                            <p>With Agile methodology our customers are in touch with development
+                                                process
+                                                and as a result they ultimately get the product they desire.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-4">
+                                    <div class="col-md-12 circle-mid">
+                                        <div class="img-holder">
+                                            <img class="pull-left" src="images/landing/management-top-icon.svg"
+                                                 alt="Management Balance">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <div class="text-holder">
+                                            <h3 class="line-small">Management Balance</h3>
+                                            <p>During working with projects as team we have found out the way to keep
+                                                balance in management to reach set goals and save developers from
+                                                distraction so they could create.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-4">
+                                    <div class="col-md-12 circle-mid">
+                                        <div class="img-holder">
+                                            <img class="pull-left" src="images/landing/code-top-icon.svg"
+                                                 alt="Maintainable Code">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <div class="text-holder">
+                                            <h3 class="line-small">Maintainable Code</h3>
+                                            <p> Our software engineers have habit of code reviewing, following coding
+                                                rules and using best practice which ensures that our product is
+                                                easy to support and evaluate.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
 
+                        <div>
+                            <div class="line col-md-12 work-section">
+                                <h2>Attention To Details</h2>
+                            </div>
+                            <p>
+                                During work with you we are not afraid to ask questions and clarify each little detail
+                                about your project because we know that in business every small peace does matter.</p>
+                            <div class="row work-list-line">
+                                <div class="col-sm-4">
+                                    <div class="col-md-12 circle-mid">
+                                        <div class="img-holder">
+                                            <img class="pull-left" src="images/landing/req-top-icon.svg"
+                                                 alt="Requirements">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <div class="text-holder">
+                                            <h3 class="line-small">Requirements</h3>
+                                            <p>We detailed study with you requirements to provide the best solution for
+                                                your business and help you overcome industry challenges.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-4">
+                                    <div class="col-md-12 circle-mid">
+                                        <div class="img-holder">
+                                            <img class="pull-left" src="images/landing/expertise-top-icon.svg"
+                                                 alt="Expertise">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <div class="text-holder">
+                                            <h3 class="line-small">Expertise</h3>
+                                            <p>Before project development and new feature creation we engage our
+                                                specialists who investigate possible future project's pitfalls and find
+                                                solution to them in order to avoid unexpected cost issues.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-4">
+                                    <div class="col-md-12 circle-mid">
+                                        <div class="img-holder">
+                                            <img class="pull-left" src="images/landing/doc-top-icon.svg"
+                                                 alt="Documentation">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <div class="text-holder">
+                                            <h3 class="line-small">Documentation</h3>
+                                            <p>Quality product has to have quality documentation - our credo that helps
+                                                us share our experience with your project through product
+                                                documentation.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
 
-   <!-- Java Script
-   ================================================== -->
-   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-   <script>window.jQuery || document.write('<script src="js/jquery-1.10.2.min.js"><\/script>')</script>
-   <script type="text/javascript" src="js/jquery-migrate-1.2.1.min.js"></script>
+                        <div>
+                            <div class="line col-md-12 work-section">
+                                <h2>Working Environment</h2>
+                            </div>
+                            <p>In cordbex we adhere to the principles of positive work culture to cultivate trust,
+                                high efficiency and support among team members so we able to deliver excellent work.</p>
+                            <div class="row work-list-line">
+                                <div class="col-sm-4">
+                                    <div class="col-md-12 circle-mid">
+                                        <div class="img-holder">
+                                            <img class="pull-left" src="images/landing/idea-top-icon.svg"
+                                                 alt="New Ideas Supporting">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <div class="text-holder">
+                                            <h3 class="line-small">New Ideas Supporting</h3>
+                                            <p>Our team members feel inspired by the opportunity to suggest new ideas
+                                                and take initiative in process so as a result we have encouraged experts
+                                                with ability to provide brilliant ideas to your business.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-4">
+                                    <div class="col-md-12 circle-mid">
+                                        <div class="img-holder">
+                                            <img class="pull-left" src="images/landing/communication-top-icon-2.svg"
+                                                 alt="Open Communication">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <div class="text-holder">
+                                            <h3 class="line-small">Open Communication</h3>
+                                            <p>We believe that open work culture removes communication barriers, that’s
+                                                why each our team member feel free to approach their colleagues, share
+                                                their thoughts and ask questions.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-4">
+                                    <div class="col-md-12 circle-mid">
+                                        <div class="img-holder">
+                                            <img class="pull-left" src="images/landing/knowledge-top-icon-2.svg"
+                                                 alt="Pursuit of Knowledge">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <div class="text-holder">
+                                            <h3 class="line-small">Pursuit of Knowledge</h3>
+                                            <p>Continuous skills development makes our employees strong experts in their
+                                                spheres and habit of learning allows them stay in touch with newest
+                                                technologies, techniques and processes.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-   <script src="js/jquery.flexslider.js"></script>
-   <script src="js/waypoints.js"></script>
-   <script src="js/jquery.fittext.js"></script>
-   <script src="js/jquery.fitvids.js"></script>
-   <script src="js/imagelightbox.js"></script>
-   <script src="js/jquery.prettyPhoto.js"></script>   
-   <script src="js/main.js"></script>
+    <!--Technologies-->
+    <section class="area">
+        <div class="container">
+            <div class="row">
+                <div class="text-box col-md-12">
+                    <div class="col-md-10 col-md-offset-1 technologies">
+                        <h2 class="line">Technologies</h2>
 
+                        <p>Cordbex specializes on Hadoop ecosystem environment over Java and Javascript
+                            programming
+                            language. Our developers use modern technologies and frameworks to create solutions
+                            that have blazing fast back-end processing with easy and convenient interface to
+                            explore.
+                        </p>
+
+                        <div class="tech-container tech-container-line col-sm-10 col-sm-offset-1 ">
+                            <div class="col-sm-6 tech-stack">
+                                <div class="tech-box">
+                                    <img src="images/landing/java-tech.svg" alt="java">
+                                    <label>Java</label>
+                                </div>
+                                <div class="tech-box">
+                                    <img src="images/landing/cassandra-tech.svg" alt="cassandra">
+                                    <label>Cassandra</label>
+                                </div>
+                                <div class="tech-box">
+                                    <img src="images/landing/kafka-tech.svg" alt="kafka">
+                                    <label>Kafka</label>
+                                </div>
+                            </div>
+                            <div class="col-sm-6 tech-stack">
+
+                                <div class="tech-box">
+                                    <img src="images/landing/js-tech.svg" alt="javascript">
+                                    <label>Javascript</label>
+                                </div>
+                                <div class="tech-box">
+                                    <img src="images/landing/spark-tech.svg" alt="apache spark">
+                                    <label>Spark</label>
+                                </div>
+                                <div class="tech-box">
+                                    <img src="images/landing/storm-tech.svg" alt="apache storm">
+                                    <label>Storm</label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer id="footer" class="footer">
+        <div class="container">
+            <div class="footer-holder">
+                <div class="row">
+                    <div class="col-md-6 contacts">
+                        <h3 class="line-small">Contacts</h3>
+                        <div class="phone-holder">
+                            <a class="phone" href="tel:+380577518951"> <span class="fa fa-phone"></span>
+                                <div>+38 067 9678 268</div>
+                            </a>
+                        </div>
+
+                        <div class="contact-way-block">
+                            <a class="contact-way" href="skype:anfel89?call"><span class="fa fa-skype"></span></a>
+                            <a class="contact-way" href="https://www.linkedin.com/company/cordbex"><span
+                                    class="fa fa-linkedin"></span></a>
+                        </div>
+                        <div class="rights-block">
+                            <div class="logo"><a href="index.html"><img src="images/logo.svg" alt="CORDBEX"></a></div>
+                            <p class="">Copyright © 2017 Cordbex Ltd.<br/>All rights reserved. </p>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="text-holder">
+                            <div class="contact-form">
+                                <h3>Talk To Us Today!</h3>
+                                <p id="returnMessage">Let us know about you and we'll start to work on your goals
+                                    together.</p>
+                                <form id="form" action="/contact" class="topBefore">
+                                    <div class="form-in">
+                                        <div class="inner-addon">
+                                            <i class="glyphicon glyphicon-exclamation-sign" style="display: none"></i>
+                                            <input id="contactName" type="text" placeholder="Name" required>
+                                        </div>
+                                        <div class="inner-addon">
+                                            <i class="glyphicon glyphicon-exclamation-sign" style="display: none"></i>
+                                            <input id="contactEmail" type="email" placeholder="Email" required>
+                                        </div>
+                                        <textarea id="contactMessage" type="text" placeholder="Message"></textarea>
+                                    </div>
+                                    <input id="contact-btn" class="btn btn-primary" type="submit" value="Contact">
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="bottom-block">
+            <div class="container">
+                <div class="text-block">
+                    <p class="tagline">© 2017 Cordbex Ltd. All rights reserved. <a href="policy.html">Privacy Policy</a><a
+                            href="terms.html">Terms of Service</a></p>
+                </div>
+            </div>
+        </div>
+    </footer>
+</div>
+<script src="js/jquery-1.11.2.min.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/jquery.main.js"></script>
+<script type="application/javascript">
+    $(document).ready(function () {
+        $("#contactUs").click(function (event) {
+            event.preventDefault();
+            $('html,body').animate({scrollTop: $(this.hash).offset().top}, 500);
+        });
+    });
+</script>
 </body>
-
 </html>
